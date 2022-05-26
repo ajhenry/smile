@@ -1,23 +1,32 @@
-# emojismile
+# smile
 
-SMile printer plugin for oh-my-zsh. Perfectly suitable as MOTD or for fun.
+Smiley face printer plugin for oh-my-zsh. Perfectly suitable as MOTD or for fun
 
-**Maintainers**: [fundor333](https://github.com/fundor333) 
+# Installation
 
-To use it add `smile` to the plugins array in you zshrc file.
+## Antigen
+
+```sh
+antigen bundle ajhenry/smile@main
+```
+
+## Manual
+
+To use it, add `smile` to the plugins array in your zshrc file
 
 ```zsh
-plugins=(... smile)
+git clone https://github.com/ajhenry/smile ~/.oh-my-zsh/plugins/smile
+plugins=(smile)
 ```
 
 ## Usage
 
-| Command | Description                     |
-| --------| ------------------------------- |
-| `smile` | Print random smile         |
+| Command | Description          |
+| ------- | -------------------- |
+| `smile` | Print a random smile |
 
 Example: output of `smile`:
 
-```
+```sh
 (°,,,°)
 ```
