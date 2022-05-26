@@ -180,7 +180,7 @@ function smile() {
     '(ᵒ̤̑ ₀̑ ᵒ̤̑)'
     '\_(ʘ_ʘ)_/'
   )
-  smile_string='${smile_quotes[RANDOM%${#smile_quotes[@]}]}'
+  smile_string="${smile_quotes[RANDOM%${#smile_quotes[@]}]}"
   echo $smile_string
   unset smile_quotes
 }
